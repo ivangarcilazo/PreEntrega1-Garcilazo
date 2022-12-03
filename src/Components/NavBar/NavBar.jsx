@@ -1,14 +1,14 @@
 import './NavBar.css'
 import NavSearchContainer from './NavLinks&Search/NavLinkSearchContainer'
-import CartGreetingsContainer from './CartGreetingsContainer/Cart&Greetins'
 import IconLogo from './Icon/Icon'
+import CartWidget from './CartWidget/CartWidget'
 
 const navBar=()=>{
     return(
         <header className="containerHeader">
             <IconLogo></IconLogo>
             <NavSearchContainer></NavSearchContainer>
-            <CartGreetingsContainer></CartGreetingsContainer>
+            <CartWidget></CartWidget>
         </header>
     )
 }
